@@ -1,0 +1,298 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		847DE2C219C0D5AB00E81F86 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 847DE2C119C0D5AB00E81F86 /* XCTest.framework */; };
+		847DE2CA19C0D5AB00E81F86 /* SpanishInflectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 847DE2C919C0D5AB00E81F86 /* SpanishInflectionTests.m */; };
+		84A49FD719C191B50082CB6B /* TTTStringInflector+Spanish.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A49FD619C191B50082CB6B /* TTTStringInflector+Spanish.m */; };
+		84A49FE319C1A1260082CB6B /* NSString+InflectorKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A49FE019C1A1260082CB6B /* NSString+InflectorKit.m */; };
+		84A49FE419C1A1260082CB6B /* TTTStringInflector.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A49FE219C1A1260082CB6B /* TTTStringInflector.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		847DE2BE19C0D5AB00E81F86 /* SpanishInflectionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpanishInflectionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847DE2C119C0D5AB00E81F86 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		847DE2C919C0D5AB00E81F86 /* SpanishInflectionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpanishInflectionTests.m; sourceTree = "<group>"; };
+		84A49FD519C191B50082CB6B /* TTTStringInflector+Spanish.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "TTTStringInflector+Spanish.h"; path = "SpanishInflection/TTTStringInflector+Spanish.h"; sourceTree = "<group>"; };
+		84A49FD619C191B50082CB6B /* TTTStringInflector+Spanish.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "TTTStringInflector+Spanish.m"; path = "SpanishInflection/TTTStringInflector+Spanish.m"; sourceTree = "<group>"; };
+		84A49FDF19C1A1260082CB6B /* NSString+InflectorKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+InflectorKit.h"; path = "InflectorKit/NSString+InflectorKit.h"; sourceTree = "<group>"; };
+		84A49FE019C1A1260082CB6B /* NSString+InflectorKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+InflectorKit.m"; path = "InflectorKit/NSString+InflectorKit.m"; sourceTree = "<group>"; };
+		84A49FE119C1A1260082CB6B /* TTTStringInflector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTTStringInflector.h; path = InflectorKit/TTTStringInflector.h; sourceTree = "<group>"; };
+		84A49FE219C1A1260082CB6B /* TTTStringInflector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTTStringInflector.m; path = InflectorKit/TTTStringInflector.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847DE2BB19C0D5AB00E81F86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847DE2C219C0D5AB00E81F86 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		847DE2B319C0D33700E81F86 = {
+			isa = PBXGroup;
+			children = (
+				847DE2CF19C0D5C200E81F86 /* SpanishInflection */,
+				847DE2C319C0D5AB00E81F86 /* SpanishInflectionTests */,
+				847DE2C019C0D5AB00E81F86 /* Frameworks */,
+				847DE2BF19C0D5AB00E81F86 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847DE2BF19C0D5AB00E81F86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847DE2BE19C0D5AB00E81F86 /* SpanishInflectionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847DE2C019C0D5AB00E81F86 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				847DE2C119C0D5AB00E81F86 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		847DE2C319C0D5AB00E81F86 /* SpanishInflectionTests */ = {
+			isa = PBXGroup;
+			children = (
+				84A49FD819C191E30082CB6B /* InflectorKit */,
+				847DE2C919C0D5AB00E81F86 /* SpanishInflectionTests.m */,
+				847DE2C419C0D5AB00E81F86 /* Supporting Files */,
+			);
+			path = SpanishInflectionTests;
+			sourceTree = "<group>";
+		};
+		847DE2C419C0D5AB00E81F86 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		847DE2CF19C0D5C200E81F86 /* SpanishInflection */ = {
+			isa = PBXGroup;
+			children = (
+				84A49FD519C191B50082CB6B /* TTTStringInflector+Spanish.h */,
+				84A49FD619C191B50082CB6B /* TTTStringInflector+Spanish.m */,
+			);
+			name = SpanishInflection;
+			sourceTree = "<group>";
+		};
+		84A49FD819C191E30082CB6B /* InflectorKit */ = {
+			isa = PBXGroup;
+			children = (
+				84A49FDF19C1A1260082CB6B /* NSString+InflectorKit.h */,
+				84A49FE019C1A1260082CB6B /* NSString+InflectorKit.m */,
+				84A49FE119C1A1260082CB6B /* TTTStringInflector.h */,
+				84A49FE219C1A1260082CB6B /* TTTStringInflector.m */,
+			);
+			path = InflectorKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847DE2BD19C0D5AB00E81F86 /* SpanishInflectionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847DE2CC19C0D5AB00E81F86 /* Build configuration list for PBXNativeTarget "SpanishInflectionTests" */;
+			buildPhases = (
+				847DE2BA19C0D5AB00E81F86 /* Sources */,
+				847DE2BB19C0D5AB00E81F86 /* Frameworks */,
+				847DE2BC19C0D5AB00E81F86 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpanishInflectionTests;
+			productName = SpanishInflectionTests;
+			productReference = 847DE2BE19C0D5AB00E81F86 /* SpanishInflectionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		847DE2B419C0D33700E81F86 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = 847DE2B719C0D33700E81F86 /* Build configuration list for PBXProject "SpanishInflection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 847DE2B319C0D33700E81F86;
+			productRefGroup = 847DE2BF19C0D5AB00E81F86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847DE2BD19C0D5AB00E81F86 /* SpanishInflectionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847DE2BC19C0D5AB00E81F86 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847DE2BA19C0D5AB00E81F86 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A49FE419C1A1260082CB6B /* TTTStringInflector.m in Sources */,
+				847DE2CA19C0D5AB00E81F86 /* SpanishInflectionTests.m in Sources */,
+				84A49FD719C191B50082CB6B /* TTTStringInflector+Spanish.m in Sources */,
+				84A49FE319C1A1260082CB6B /* NSString+InflectorKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		847DE2B819C0D33700E81F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		847DE2B919C0D33700E81F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		847DE2CD19C0D5AB00E81F86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		847DE2CE19C0D5AB00E81F86 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847DE2B719C0D33700E81F86 /* Build configuration list for PBXProject "SpanishInflection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE2B819C0D33700E81F86 /* Debug */,
+				847DE2B919C0D33700E81F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847DE2CC19C0D5AB00E81F86 /* Build configuration list for PBXNativeTarget "SpanishInflectionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847DE2CD19C0D5AB00E81F86 /* Debug */,
+				847DE2CE19C0D5AB00E81F86 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 847DE2B419C0D33700E81F86 /* Project object */;
+}
