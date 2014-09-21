@@ -8,11 +8,11 @@ Spanish inflection rules for **[InflectorKit](https://www.github.com/mattt/Infle
 
 ### From CocoaPods
 
-Add `pod 'SpanishInflection'` to your `Podfile`.
+Add `pod 'SpanishInflection'` to your *Podfile*.
 
 ### Manually
 
-Drag the `SpanishInflection` folder into your project and make sure to have added **[InflectorKit](https://www.github.com/mattt/InflectorKit)** to your project too.
+Drag the *SpanishInflection* folder into your project and make sure to have added **[InflectorKit](https://www.github.com/mattt/InflectorKit)** to your project too.
 
 ## Usage
 
@@ -26,4 +26,4 @@ NSLog(@"%@", [inflector singularize:@"comentarios"]);
 
 ## License
 
-**SpanishInflection** is available under the MIT license. See the LICENSE file for more info.
+**SpanishInflection** is available under the MIT license. See the *LICENSE* file for more info.
