@@ -1,4 +1,7 @@
 [![Build Status](https://travis-ci.org/hectr/SpanishInflection.svg)](https://travis-ci.org/hectr/SpanishInflection)
+[![Version](https://img.shields.io/cocoapods/v/SpanishInflection.svg?style=flat)](http://cocoadocs.org/docsets/SpanishInflection)
+[![License](https://img.shields.io/cocoapods/l/SpanishInflection.svg?style=flat)](http://cocoadocs.org/docsets/SpanishInflection)
+[![Platform](https://img.shields.io/cocoapods/p/SpanishInflection.svg?style=flat)](http://cocoadocs.org/docsets/SpanishInflection)
 
 # SpanishInflection
 
