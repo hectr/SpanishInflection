@@ -86,7 +86,8 @@
     [self addSingularRule:@"ches$" withReplacement:@"che"];
     [self addSingularRule:@"efes$" withReplacement:@"efe"];
     [self addSingularRule:@"ntes$" withReplacement:@"nte"];
-    
+    [self addSingularRule:@"umes$" withReplacement:@"ume"];
+
     [self addSingularRule:@"e([^aeiouáéíóú])ímenes$" withReplacement:@"é$1imen"];
     [self addPluralRule:@"a([^aeiouáéíóú])acteres$" withReplacement:@"á$1acter"];
 }
