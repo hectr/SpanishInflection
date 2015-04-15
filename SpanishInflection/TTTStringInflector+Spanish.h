@@ -1,4 +1,4 @@
-// TTTStringInflector+Spanish.m
+// TTTStringInflector+Spanish.h
 //
 // Copyright (c) 2013 Héctor Marqués
 //
@@ -21,6 +21,7 @@
 // THE SOFTWARE.
 
 #import "TTTStringInflector.h"
+
 
 /// Adds methods for configuring an inflector with spanish inflection rules.
 @interface TTTStringInflector (Spanish)
