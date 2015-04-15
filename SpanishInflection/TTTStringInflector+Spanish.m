@@ -89,7 +89,7 @@
     [self addSingularRule:@"umes$" withReplacement:@"ume"];
 
     [self addSingularRule:@"e([^aeiouáéíóú])ímenes$" withReplacement:@"é$1imen"];
-    [self addPluralRule:@"a([^aeiouáéíóú])acteres$" withReplacement:@"á$1acter"];
+    [self addSingularRule:@"a([^aeiouáéíóú])acteres$" withReplacement:@"á$1acter"];
 }
 
 - (void)addIrregularsForEsESLocale
