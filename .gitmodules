@@ -1,0 +1,3 @@
+[submodule "SpanishInflectionTests/InflectorKit"]
+	path = SpanishInflectionTests/InflectorKit
+	url = https://github.com/mattt/InflectorKit.git
